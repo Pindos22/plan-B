@@ -65,9 +65,9 @@ main {
 footer {
     background-color: #000000;
     color: #ffffff;
+    line-height: 10px;
 }
 .footer {
-    display: flexbox;
     align-items: center;
     justify-content: space-between;
     text-align: center;
