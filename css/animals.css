@@ -1,0 +1,66 @@
+.line1{
+    display: inline;
+}
+.main{
+    padding-top: 0;
+    background-color: #00629b ;
+}
+.index{
+    height:  700px;
+    background-image: url("../img/background-2.jpg");
+    background-size: cover;
+    padding-bottom:  15px;
+}
+h2{
+    margin-block-start: 0;
+}
+.animalh2{
+    font-size:300%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 600px;
+}
+.line1{
+    padding-left: 7%;
+
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom:  15px;
+
+    
+}
+a img:hover{
+    transform: scale(1.05);
+
+}
+img {
+    transform: scale(1);
+    transition: all 0.4s;
+    border-style: none;
+    border-radius: 25px;
+}
+.text {
+    text-align: center;
+    font-size:200%;
+}
+.text-overlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px; 
+    font-size: 30px;
+    color: #ffffff;
+}
+.animals-text{
+    position:absolute;
+    left: 35%;
+    font-size:400%;
+    color: white;
+    top: 50%;
+    text-transform: uppercase;
+}
