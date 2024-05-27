@@ -40,6 +40,7 @@
 .image-section {
     flex: 1;
     max-width: 50%;
+    width: 50%;
 }
 .image-section img {
     width: 100%;
@@ -70,7 +71,7 @@
     border-radius: 5px;
 }
 .button:hover {
-    background-color: #0056b3;
+    background-color: orangered;
 }
 .reverse {
     flex-direction: row-reverse;
