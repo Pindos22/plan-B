@@ -28,11 +28,10 @@ h2{
 .image-container {
     position: relative;
     display: inline-block;
-    padding-right: 15px;
-    padding-bottom:  15px;
-
-    
+    padding-right:  1%;
+    padding-bottom:  1%;
 }
+
 a img:hover{
     transform: scale(1.05);
 

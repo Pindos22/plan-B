@@ -31,6 +31,8 @@ header {
     margin: 0 auto;
     margin-left: 0;
     margin-right: auto;
+    border-style: none;
+    border-radius: 25px;
 }
 nav {
     margin-left: auto;
@@ -79,6 +81,8 @@ footer {
     width: 75px;
     height: auto;
     margin: 0px auto;
+    border-style: none;
+    border-radius: 25px;
 }
 .info {
     color: rgb(200, 200, 200);
