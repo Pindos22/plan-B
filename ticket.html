@@ -1,74 +1,185 @@
 <!DOCTYPE html>
-<html lang="vi">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./css/header & footer.css" />
-        <title>Document</title>
-    </head>
-    <body class="ticket">
-        <div class="site">
-            <header>
-                <div class="top">
-                    <a href="./index.html">
-                        <img src="img/Logo.png" alt="logo" id="logo" />
-                    </a>
-                    <nav>
-                        <ul>
-                            <li><a href="./index.html">Home</a></li>
-                            <li><a href="./index.html#event">Events</a></li>
-                            <li><a href="./animals.html">Animals</a></li>
-                            <li><a href="./about.html">About Us</a></li>
-                            <li><a href="./gallery.html">Gallery</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li><a href="./ticket.html" class="on">Ticket</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-            <main>
-                <div class="general admission">
-                    <h2>Regulations on ticket prices</h2>
-                    <div>
-                        <p>
-                            Tickets include entrance fees and visits during the
-                            operating hours of the Aquarium, excluding other
-                            auxiliary services.
-                        </p>
-                        <p>
-                            Customers must present tickets to visit the
-                            aquarium. Tickets cannot be transferred to others
-                            after purchase.
-                        </p>
-                        <p>
-                            Valid tickets must be intact, not torn, patched,
-                            or erased.
-                        </p>
-                        <p>
-                            Purchased tickets are non-refundable. In case of
-                            loss, tickets will not be reissued.
-                        </p>
-                    </div>
-                </div>
-            </main>
-            <footer id="contact">
-                <div class="footer">
-                    <h4>Contact us</h4>
-                    <div class="logo2">
-                        <a href="./index.html"
-                            ><img src="./img/Logo.png" alt="Logo" id="logo2"
-                        /></a>
-                    </div>
-                    <p>
-                        <a href="mailto:example-mail@gmail.com" class="info"
-                            >E-mail: example-mail@gmail.com</a
-                        >
-                    </p>
-                    <p>
-                        <a href="tel:19001000" class="info">Phone: 19001000</a>
-                    </p>
-                </div>
-            </footer>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fjalla+One&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style type="text/css">
+        body {
+            font-family: "Crimson Text", serif;
+            margin: 10px;
+            padding: 0;
+        }
+        .wrapper{
+            background-color: #00629b;
+        }
+        .top {
+            top: 0;
+            display: left;
+            flex-direction: column;
+            align-items: center;
+            background-color: black; 
+            padding: 20px;
+            border: 1px solid #d7d6d693;
+        }
+        .logo img {
+            max-width: 100%;
+            height: auto;
+        }
+        .banner {
+            font-weight: 70;
+            font-size: 200px;
+            width: 100%;
+            display: left;
+            background-color: black;
+            font-size: 20px;
+            letter-spacing: 0.5px;
+            padding: 10px 0 10px 0;
+        }
+        .duong-link {
+            list-style: none;
+            padding: 10;
+            margin: 0px 0px 20px 0px;
+            display: flex;
+            gap: 10px;
+        }
+        .duong-link-con{
+            display: inline;
+        }
+        .duong-link-con a{
+            color: #c1c0c0;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .duong-link-con a:hover, .duong-link-con a.current{
+            color: #eeeeee;
+        }
+        .main {
+            padding: 20px;
+        }
+        .ticket-booking {
+            text-align: center;
+        }
+        h1{
+            display: block;
+            color: #ffffff;
+            margin: 20px auto 20px 60px;
+            font-size: 50px;
+        }
+        .bar a{
+            margin: 40px;
+            text-decoration: none;
+            color:#ffffff;
+        }
+        h2{
+            color: #002a54;
+            font-size: 50px;
+            margin: 40px auto 0px 180px;
+        }
+        #booking-form {
+            max-width: 400px;
+            margin: 5% auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .rule{
+            margin: 40px 30px 40px 180px;
+            font-size: 18px;
+            margin-bottom: 5%;
+        }
+        input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .btn-primary {
+             color: #fff;
+             background-color: #357cab;
+             border: 1px solid #357cab;
+             font-family: "Crimson Text", serif;
+             font-size: 15px;
+             display: inline-block;
+             margin: 0 .5rem .5rem 0;
+             padding: .75rem 1.0625rem;
+             text-decoration: none;
+             text-align: center;
+             cursor: pointer;
+             position: relative;
+             z-index: 10;
+             transition: .35s !important;
+             outline: none;
+             background-image: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #ffffff;
+            color: #e19211b6;
+            border: 1px solid #e19211b6;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+       <div class="top">
+        <div class="logo">
+            <a href="./index.html"><img src="img/Logo.png" alt="logo" width="70px"/></a>
         </div>
-    </body>
+        </div>
+        <div class="banner">
+            <ul class="duong-link">
+                <li class="duong-link-con"><a href="./index.html" class="item">Home</a></li>
+                |
+                <li class="duong-link-con"><a href="./animals.html" class= "item">Animals</a></li>
+                |
+                <li class="duong-link-con"><a href="./about.html" class="item">About</a></li>
+                |
+                <li class="duong-link-con"><a href="./gallery.html" class="item">Gallery</a></li>
+                |
+                <li class="duong-link-con"><a href="#contact" class="item">Contact</a></li>
+                |
+                <li class="duong-link-con"><a href="./ticket.html" class="item on">Ticket</a></li>
+            </ul>
+        </div>
+        <div class="bar">
+            <a href="index.html">< &nbsp Home</a>
+        </div>
+            <h1><strong>Choose a date</strong></h1>
+            <br>
+    </div>
+     <div class="main">
+        <div class="general-admission">
+            <h2>Admission</h2>
+            <div class="rule">
+                <p>The ticket to the Aquarium includes the entrance fee and access to activities during its operating hours, but does not cover additional ancillary services.</p>
+                <p>Visitors must present tickets for admission to the aquarium.</p>
+                <p>Valid tickets must be intact, not torn, patched, or altered.</p>
+                <p>Tickets are non-refundable. </p>
+            </div>
+            <form id="booking-form" action="cart.html">
+                <label for="date"><strong>Choose a date:</strong></label><br />
+                <input type="date" id="date" name="date" required>
+                <button class="btn-primary" type="submit" name="submit">Continue</button></a>
+            </form>
+        </div>
+        <hr>
+        <div id="contact" class="bottom">
+            <h4>Contact us:</h4>
+            Mail: example-mail@gmail.com<br />
+            Phone: 19001000
+        </div>
+    </div>
+</body>
 </html>
