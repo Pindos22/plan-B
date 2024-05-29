@@ -1,12 +1,8 @@
 main{
     padding-top: 0;
-<<<<<<< HEAD
     background-color: #959b9e ;
-    background-image: url("../img/background-2.jpg");
-    background-size: 700px;
-=======
-    background-color: #b4b2b2 ;
->>>>>>> f035080f3bdd1a4170cb968b5813abb51c7cb44e
+    background-image: url("../img/background-3.jpg");
+    background-size: 100%;
 }
 .index{
     height: 700px;
@@ -28,18 +24,12 @@ h2{
 .image-container {
     position: relative;
     display: inline-block;
-<<<<<<< HEAD
     padding-right: 15px;
     padding-bottom:  15px;  
 }
 a>img{
     width: 100%;
-=======
-    padding-right:  1%;
-    padding-bottom:  1%;
->>>>>>> f035080f3bdd1a4170cb968b5813abb51c7cb44e
 }
-
 a img:hover{
     transform: scale(1.05);
 
