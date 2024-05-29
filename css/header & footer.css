@@ -31,6 +31,8 @@ header {
     margin: 0 auto;
     margin-left: 0;
     margin-right: auto;
+    border-style: none;
+    border-radius: 25px;
 }
 nav {
     margin-left: auto;
@@ -65,9 +67,9 @@ main {
 footer {
     background-color: #000000;
     color: #ffffff;
+    line-height: 10px;
 }
 .footer {
-    display: flexbox;
     align-items: center;
     justify-content: space-between;
     text-align: center;
@@ -79,6 +81,8 @@ footer {
     width: 75px;
     height: auto;
     margin: 0px auto;
+    border-style: none;
+    border-radius: 25px;
 }
 .info {
     color: rgb(200, 200, 200);

@@ -1,14 +1,11 @@
-.line1{
-    display: inline;
-}
-.main{
+main{
     padding-top: 0;
-    background-color: #00629b ;
+    background-color: #959b9e ;
+    background-image: url("../img/background-2.jpg");
+    background-size: 700px;
 }
 .index{
-    height:  700px;
-    background-image: url("../img/background-2.jpg");
-    background-size: cover;
+    height: 700px;
     padding-bottom:  15px;
 }
 h2{
@@ -20,18 +17,18 @@ h2{
     text-transform: uppercase;
     text-align: center;
     padding-top: 600px;
-}
+}   
 .line1{
     padding-left: 7%;
-
 }
 .image-container {
     position: relative;
     display: inline-block;
     padding-right: 15px;
-    padding-bottom:  15px;
-
-    
+    padding-bottom:  15px;  
+}
+a>img{
+    width: 100%;
 }
 a img:hover{
     transform: scale(1.05);
