@@ -70,9 +70,28 @@
     cursor: pointer;
     border-radius: 5px;
 }
+h3{
+    font-size: 130%;
+}
 .button:hover {
     background-color: orangered;
 }
 .reverse {
     flex-direction: row-reverse;
+}
+
+.map-location{
+    margin: 0px 20% 5% 22%;
+}
+
+a img:hover{
+    transform: scale(1.05);
+
+}
+img {
+    transform: scale(1);
+    transition: all 0.4s;
+    border-style: none;
+    border-radius: 25px;
+    width: 100%;
 }
