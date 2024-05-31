@@ -4,116 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fjalla+One&family=Teko:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style type="text/css">
-        body {
-            font-family: "Crimson Text", serif;
-            margin: 10px;
-            padding: 0;
-        }
-        .wrapper{
-            background-color: #00629b;
-        }
-        .top {
-            top: 0;
-            display: left;
-            flex-direction: column;
-            align-items: center;
-            background-color: black; 
-            padding: 20px;
-            border: 1px solid #d7d6d693;
-        }
-        .logo img {
-            max-width: 100%;
-            height: auto;
-        }
-        .banner {
-            font-weight: 70;
-            width: 100%;
-            display: left;
-            background-color: black;
-            font-size: 20px;
-            letter-spacing: 0.5px;
-            padding: 10px 0 10px 0;
-        }
-        .duong-link {
-            list-style: none;
-            padding: 10;
-            margin: 0px 0px 20px 0px;
-            display: flex;
-            gap: 10px;
-        }
-        .duong-link-con{
-            display: inline;
-        }
-        .duong-link-con a{
-            color: #c1c0c0;
-            text-decoration: none;
-            margin-left: 20px;
-        }
-        .duong-link-con a:hover, .duong-link-con a.current{
-            color: #eeeeee;
-        }
-        .thank-you-container{
-            background-image: url(/lesson04/aquarium/img/aquarium-photography-15.jpg);
-            background-size: cover;
-            background-position: center;
-            padding: 250px;
-            text-align: center;
-            color: #ffffff;
-        }
-        h1{
-            display: block;
-            color: #002a54;
-            padding: 50px;
-            margin: 20px auto 20px 60px;
-            font-size: 50px;
-            background-color: #ffffff;
-        }
-        p{
-            display: block;
-            color: #ffffff;
-            margin: 20px auto 20px 60px;
-            font-size: 20px; 
-        }
-</style>
+    <link rel="stylesheet" href="./css/header & footer.css">
+    <link rel="stylesheet" href="./css/ticket.css">
 </head>
 <body>
-    <div class="wrapper">
+    <header>
         <div class="top">
-         <div class="logo">
-             <a href="./index.html"><img src="img/Logo.png" alt="logo" width="70px"/></a>
-         </div>
-         </div>
-         <div class="banner">
-             <ul class="duong-link">
-                 <li class="duong-link-con"><a href="./index.html" class="item">Home</a></li>
-                 |
-                 <li class="duong-link-con"><a href="./animals.html" class= "item">Animals</a></li>
-                 |
-                 <li class="duong-link-con"><a href="./about.html" class="item">About</a></li>
-                 |
-                 <li class="duong-link-con"><a href="./gallery.html" class="item">Gallery</a></li>
-                 |
-                 <li class="duong-link-con"><a href="#contact" class="item">Contact</a></li>
-                 |
-                 <li class="duong-link-con"><a href="./ticket.html" class="item on">Ticket</a></li>
-             </ul>
-         </div>
-    </div>
-    <div class="thank-you-container"> 
-        <h1><strong>Thank you for your booking</strong></h1>
-        <p>We are looking forward to seeing you at the aquarium</p>
-    </div>
-    <br>
-    <hr>
-            <div id="contact" class="bottom">
-                <h4>Contact us:</h4>
-                Mail: example-mail@gmail.com<br />
-                Phone: 19001000
+            <a href="./index.html">
+                <img src="/plan-B-main/img/happy dolphin.png" alt="logo" id="logo" />
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./index.html#event">Events</a></li>
+                    <li><a href="./animals.html">Animals</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./ticket2.html" class="on">Ticket</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="heading1">
+            <h1>Ticket booking</h1>
+        </div>
+    </header>
+    <main class="confirm">
+        <div class="item-box">
+            <div>
+                <h2 class="1st">
+                    <span>Thank you for your booking</span>
+                </h2>
             </div>
+            <p>
+                <span>
+                   We are looking forward to seeing you at the aquarium
+                </span>
+            </p>
+    </main>
+    <footer id="contact">
+        <div class="footer">
+            <h4>Contact us</h4>
+            <div class="logo2">
+                <a href="./index.html"
+                    ><img src="/plan-B-main/img/happy dolphin.png" alt="Logo" id="logo2"
+                /></a>
+            </div>
+            <p>
+                <a href="mailto:example-mail@gmail.com" class="info"
+                    >E-mail: example-mail@gmail.com</a
+                >
+            </p>
+            <p>
+                <a href="tel:19001000" class="info">Phone: 19001000</a>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
