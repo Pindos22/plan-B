@@ -30,6 +30,10 @@ h2{
 .line1{
     padding-left: 7%;
 }
+.container {
+    margin-top: 25px;
+    text-align: center;
+}
 .image-container {
     position: relative;
     display: inline-block;
