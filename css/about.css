@@ -84,11 +84,11 @@ h3{
     margin: 0px 20% 5% 22%;
 }
 
-a img:hover{
+.map-location img:hover{
     transform: scale(1.05);
 
 }
-img {
+.map-location img {
     transform: scale(1);
     transition: all 0.4s;
     border-style: none;
