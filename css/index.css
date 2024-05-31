@@ -51,8 +51,13 @@ h2{
     font-size: 25px;
     margin:0 auto;
     text-align: center;
-    
 }
+/* #ex {
+    display: inline;
+}
+#animal-img {
+    width: 10px;
+} */
 #content2 {
     border-radius: 10px;
     background-color: #00629b;
