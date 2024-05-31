@@ -5,6 +5,11 @@ main{
     background-image: url("../img/Underwater-iPhone-Wallpaper.jpg");
     background-size: cover;
 }
+h1{
+    color: #08023aef;
+    text-align: center;
+    font-size: 80px;
+}
 
 .index{
     height: 700px;
