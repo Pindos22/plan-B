@@ -4,19 +4,28 @@ main{
     background-image: url("../img/background-3.jpg");
     background-size: 100%;
 }
+
 .index{
     height: 700px;
     padding-bottom:  15px;
 }
+
 h2{
     margin-block-start: 0;
 }
-.animalh2{
+.index h1{
+    font-size:900%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10%;
+}
+.index h2{
     font-size:300%;
     color: white;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 600px;
+    padding-top: 12%;
 }   
 .line1{
     padding-left: 7%;
