@@ -2,7 +2,8 @@ main{
     padding-top: 0;
     background-color: #959b9e ;
     background-size: 100%;
-    background-image: url("../img/2209379.jpg");
+    background-image: url("../img/Underwater-iPhone-Wallpaper.jpg");
+    background-size: cover;
 }
 
 .index{
