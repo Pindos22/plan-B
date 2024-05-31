@@ -81,17 +81,5 @@ h3{
 }
 
 .map-location{
-    margin: 0px 20% 5% 22%;
-}
-
-.map-location img:hover{
-    transform: scale(1.05);
-
-}
-.map-location img {
-    transform: scale(1);
-    transition: all 0.4s;
-    border-style: none;
-    border-radius: 25px;
-    width: 100%;
+    margin: 0px 20% 5% 27%;
 }
