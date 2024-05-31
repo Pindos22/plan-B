@@ -1,0 +1,55 @@
+main{
+    padding-top: 0;
+    background-color: #eeeeee ;
+    background-size: 100%;
+}
+
+.index{
+    height: 700px;
+    padding-bottom:  15px;
+}
+.line1{
+    padding-left: 7%;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+    padding-bottom:  10px;  
+}
+
+a img:hover{
+    transform: scale(1.05);
+
+}
+img {
+    transform: scale(1);
+    transition: all 0.4s;
+    border-style: none;
+    border-radius: 25px;
+}
+.text {
+    text-align: center;
+    font-size:200%;
+}
+.text-overlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px; 
+    font-size: 30px;
+    color: #e0d7d7;
+}
+.line1{
+    padding-left: 7%;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom:  15px;  
+}
+a>img{
+    width: 100%;
+}
