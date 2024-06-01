@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/header & footer.css" />
+        <link rel="stylesheet" href="./css/about.css" />
+        <link rel="stylesheet" href="./css/ticket2.css" />
+    </head>
+    <body>
+        <header>
+            <div class="top">
+                <a href="./index.html">
+                    <img src="img/happy dolphin.png" alt="logo" id="logo" />
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./index.html#event">Events</a></li>
+                        <li><a href="./animals.html">Animals</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a href="./contact">Contact</a></li>
+                        <li><a href="./ticket2.html" class="on">Ticket</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="heading1">
+                <h1>Choose a date</h1>
+            </div>
+            <div class="item-box">
+                <div>
+                    <h2 class="1st">
+                        <span><strong>Admission</strong></span>
+                    </h2>
+                </div>
+                <p>
+                    <span
+                        >The ticket to the Aquarium includes the entrance fee
+                        and access to activities during operating hours.
+                    </span>
+                </p>
+                <p>
+                    <span>
+                        Visitors must present tickets for admission to the
+                        aquarium.
+                    </span>
+                </p>
+                <p>
+                    <span>Tickets are non-refundable.</span>
+                </p>
+            </div>
+            <div class="date-form">
+                <form id="booking-form">
+                    <label for="date"><strong>Choose a date:</strong></label
+                    ><br />
+                    <input type="date" id="date" name="date" required />
+                </form>
+            </div>
+            <div class="fill-information">
+                <h1>Please fill in the information</h1>
+                <p>
+                    <strong>Adult</strong> 500.000 VND &nbsp;
+                    <strong>Youth</strong> 400.000 VND &nbsp;
+                    <strong>Child</strong> 300.000 VND &nbsp;
+                    <strong>Four and under </strong> free
+                </p>
+                <form id="bookingForm" action="cart2.html" method="POST">
+                    <div class="form-row">
+                        <div class="formgroup">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required />
+                            <br />
+                        </div>
+                        <div class="formgroup">
+                            <label for="address">Address</label>
+                            <input
+                                type="text"
+                                id="address"
+                                name="address"
+                                required
+                            />
+                            <br />
+                        </div>
+                        <div class="formgroup">
+                            <label for="email">Email Address </label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                            />
+                            <br />
+                        </div>
+                    </div>
+                    <button type="submit">Continue</button>
+                </form>
+            </div>
+        </main>
+        <footer id="contact">
+            <div class="footer">
+                <h4>Contact us</h4>
+                <div class="logo2">
+                    <a href="./index.html">
+                        <img
+                            src="img/happy dolphin.png"
+                            alt="logo"
+                            id="logo2"
+                        />
+                    </a>
+                </div>
+                <p>
+                    <a href="mailto:example-mail@gmail.com" class="info"
+                        >E-mail: example-mail@gmail.com</a
+                    >
+                </p>
+                <p>
+                    <a href="tel:19001000" class="info">Phone: 19001000</a>
+                </p>
+            </div>
+        </footer>
+        </footer>
+    </body>
+</html>

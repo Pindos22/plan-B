@@ -16,6 +16,7 @@
     font-size: 50px;
 }
 h2{
+<<<<<<< HEAD
         color: #002a54;
         font-size: 50px;
             margin: 40px auto 0px 180px;
@@ -57,6 +58,49 @@ h3{
     border-radius: 8px;
     color: black;
     margin: 20px 10%;
+=======
+            color: #002a54;
+            font-size: 50px;
+            margin: 40px auto 0px 180px;
+        }
+        .anotherday a{
+            color: #00629b;
+            margin: 50px auto 40px 180px;
+        }
+        .anotherday a:hover{
+            color: #e19211b6;
+            text-decoration: none;
+        }
+        
+        .information{
+            margin: 40px 30px 40px 180px;
+            font-size: 18px;
+        }
+        .text{
+            margin-right: 30%;
+        }
+        h3{
+            color: #002a54;
+            font-size: 26px;
+            margin-top: 50px;
+        }
+        .tick{
+            margin: 0px 20px 40px 60px;
+            padding: 0px 0px 5px 30px;
+        }
+        .item li{
+            margin-right: 100%;
+        }
+        .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0px;
+            padding: 10px;
+            border-radius: 8px;
+            color: black;
+            margin: 20px 10%;
+>>>>>>> c3ac260033a3882d72c142a140d7b88970ff75b9
         }
         .pricetype {
             flex: 1;
