@@ -102,9 +102,16 @@ h2{
     text-align: center;
     font-size: 25px;
 }
+#event h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px auto 50px auto;
+    font-size: 30px;
+}
 h5{
     font-size: 24px;
 }
 h3{
     font-size: 39px;
 }
+
